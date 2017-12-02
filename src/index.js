@@ -6,6 +6,7 @@ import ReduxPromise from 'redux-promise';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/navbar';
+import PythonPage from './components/python';
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
@@ -15,7 +16,6 @@ ReactDOM.render(
         <Navbar/>
         <Switch>
           <Route path="/python" component={PythonPage}/>
-          <Route path="/" component={Home}/>
         </Switch>
       </div>
     </BrowserRouter>,

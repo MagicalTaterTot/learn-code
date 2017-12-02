@@ -1,4 +1,4 @@
-{
+module.exports = {
   "exerciseNum": 8,
   "exercises": {
     "1": {
