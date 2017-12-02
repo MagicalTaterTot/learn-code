@@ -1,0 +1,37 @@
+{
+  "exerciseNum": 8,
+  "exercises": {
+    "1": {
+      "text": "Create a variable using the syntax (x = y). The value of a variable can be anything! To move on, create a variable named text with value 'Hello World'",
+      "obj": "Hello World"
+    },
+    "2": {
+      "text": "Integers are numbers without decimal places, and floats are numbers with decimal points. Unlike strings, they don't require quotations around them. Create a variable int, and a variable float, with values of 3 and 4.5 respectively.",
+      "obj": ""
+    },
+    "3": {
+      "text": "",
+      "obj": ""
+    },
+    "4": {
+      "text": "",
+      "obj": ""
+    },
+    "5": {
+      "text": "",
+      "obj": ""
+    },
+    "6": {
+      "text": "",
+      "obj": ""
+    },
+    "7": {
+      "text": "",
+      "obj": ""
+    },
+    "8": {
+      "text": "",
+      "obj": ""
+    }
+  }
+}
