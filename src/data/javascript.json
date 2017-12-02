@@ -1,0 +1,41 @@
+module.exports = {
+  "exerciseNum": 9,
+  "exercises": {
+    "0": {
+      "text": "Math is almost the same as regular math in javascript. You would do one number + another. The operations are + for adding, - for subtracting, / for division, * for mulitplication, and ^ for exponents. Write 2 squared",
+      "obj": "2^2"
+    },
+    "1": {
+      "text": "Create a variable using the syntax (var x = y;). The value of a variable can be anything! To move on, create a variable named text with value 'Hello World'",
+      "obj": "Hello World"
+    },
+    "2": {
+      "text": "Integers are numbers without decimal places, and floats are numbers with decimal points. Unlike strings, they don't require quotations around them. Create a variable int, and a variable float, with values of 3 and 4.5 respectively.",
+      "obj": "[3,4.5]"
+    },
+    "3": {
+      "text": "Booleans are either true or false. A boolean is written as true or false. Make a variable called happy and give it a Boolean value of true",
+      "obj": "true"
+    },
+    "4": {
+      "text": "Arrays are lists. They are a list of values and can hold integers, strings, floats, Booleans, and other lists! To write an array, use []. In the brackets are the objects that you want separated by commas. Make a list with 'apples', 47, and True.",
+      "obj": "['apple', 47, true]"
+    },
+    "5": {
+      "text": "Objects are like arrays except instead of referring to a place in a list with a number, you can call them whatever you want. Their structure is {key:value, key:value}. Make an array where the keys are 'apples' and 'bananas' and the values are 2 and 3 respectively.",
+      "obj": "{'apples':2, 'bananas':3}"
+    },
+    "6": {
+      "text": "A print statement displays whatever you tell it to display. The syntax is print(arg) Print the string 'GitHub'",
+      "obj": "GitHub"
+    },
+    "7": {
+      "text": "Conditional signs compare two values. > is greater than and < is less than. The compare two numbers. You can add an = sign if you want to make it greater/less than or equal to. Make a variable that checks if 3 is greater than or euqal to 4 and print the result",
+      "obj": "False"
+    },
+    "8": {
+      "text": "Conditional statements are used to do something under a certain condition. They are written as if (condition){ [insert code]} else{ [code to otherwise do]} Write a conditional that prints 'hi' if 3 < 4 and 'bye' otherwise",
+      "obj": "hi"
+    }
+  }
+}
