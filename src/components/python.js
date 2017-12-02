@@ -13,19 +13,27 @@ export default class PythonPage extends React.Component {
       )
     }
     return (
-      <div className="exerciseContainer">
-        { exerciseArray }
+      <div>
+        <span className="toggle-button">
+          <div className="menu-bar menu-bar-top"></div>
+          <div className="menu-bar menu-bar-middle"></div>
+          <div className="menu-bar menu-bar-bottom"></div>
+        </span>
+        <div className="menuWrap exerciseContainer">
+          { exerciseArray }
+        </div>
       </div>
     )
   }
 }
 class PythonExercise extends React.Component {
   render() {
-    var number = parseInt(this.props.number)
+    var number = this.props.number
+    var url = "/python/" + number
   return (
-    <div className="exercise">
+    <a href={ url } className="exercise menu-item">
       { number }
-    </div>
+    </a>
   )
 }
 }

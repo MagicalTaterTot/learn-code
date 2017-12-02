@@ -15,6 +15,7 @@ ReactDOM.render(
       <div>
         <Navbar/>
         <Switch>
+          <Route path="/python/:id" component={PythonExercise} />
           <Route path="/python" component={PythonPage}/>
         </Switch>
       </div>
