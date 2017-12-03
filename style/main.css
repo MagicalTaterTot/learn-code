@@ -95,6 +95,11 @@ code {
   color: white;
   text-decoration: none;
 }
+#desc {
+  margin-left: 70px;
+  font-family: 'Electrolize';
+  font-size: 20pt;
+}
 .menu-item:after {
 	content: '';
 	display: block;

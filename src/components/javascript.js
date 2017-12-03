@@ -22,6 +22,7 @@ export default class JSPage extends React.Component {
         <div className="menuWrap exerciseContainer">
           { exerciseArray }
         </div>
+        <div id="desc">Javascript is a high level programming language that is one of the three backbones of modern web development, alongside HTML and CSS</div>
       </div>
     )
   }
