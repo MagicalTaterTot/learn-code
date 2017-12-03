@@ -6,7 +6,8 @@ import ReduxPromise from 'redux-promise';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/navbar';
-import PythonPage from './components/python';
+import JSPage from './components/javascript';
+import JSExercise from './components/jsExercise'
 
 const createStoreWithMiddleware = applyMiddleware(ReduxPromise)(createStore);
 
@@ -15,8 +16,8 @@ ReactDOM.render(
       <div>
         <Navbar/>
         <Switch>
-          <Route path="/python/:id" component={PythonExercise} />
-          <Route path="/python" component={PythonPage}/>
+          <Route path="/js/:id" component={JSExercise}/>
+          <Route path="/js" component={JSPage}/>
         </Switch>
       </div>
     </BrowserRouter>,

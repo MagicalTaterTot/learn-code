@@ -107,3 +107,10 @@ code {
 .menu-item:hover:after {
 	width: 100%;
 }
+.exerciseText {
+  font-family: "Raleway", serif;
+  margin-right: 50px;
+}
+.exercisePageContainer {
+  margin-left: 40px;
+}

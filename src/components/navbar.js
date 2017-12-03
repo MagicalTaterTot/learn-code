@@ -11,7 +11,7 @@ export default class Navbar extends Component {
 
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav">
-              <li><a className="nav-element" href="/python">Python</a></li>
+              <li><a className="nav-element" href="/js">JS</a></li>
             </ul>
           </div>
         </div>

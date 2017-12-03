@@ -2,39 +2,48 @@ module.exports = {
   "exerciseNum": 9,
   "exercises": {
     "1": {
-      "text": "Math is almost the same as regular math in python. You would do one number + another. The operations are + for adding, - for subtracting, / for division, * for mulitplication, and ** for exponents. Write 2 squared",
-      "obj": "2**2"
+      "text": "Math is almost the same as regular math in python. You would do one number + another. The operations are + for adding, - for subtracting, / for division, * for mulitplication, and ** for exponents. Write 2 squared in the print statement",
+      "def": "print()",
+      "obj": "4"
     },
     "2": {
       "text": "Create a variable using the syntax (x = y). The value of a variable can be anything! To move on, create a variable named text with value 'Hello World'",
+      "def": "print(text)",
       "obj": "Hello World"
     },
     "3": {
       "text": "Integers are numbers without decimal places, and floats are numbers with decimal points. Unlike strings, they don't require quotations around them. Create a variable int, and a variable float, with values of 3 and 4.5 respectively.",
+      "def": "print([int, float])",
       "obj": "[3,4.5]"
     },
     "4": {
       "text": "Booleans are either true or false. A boolean is written as True or False. Make a variable called happy and give it a Boolean value of True",
+      "def": "print(happy)",
       "obj": "True"
     },
     "5": {
-      "text": "Lists are what they sound like. They are a list of values and can hold integers, strings, floats, Booleans, and other lists! To write a list, use []. In the brackets are the objects that you want separated by commas. Make a list with 'apples', 47, and True.",
+      "text": "Lists are what they sound like. They are a list of values and can hold integers, strings, floats, Booleans, and other lists! To write a list, use []. In the brackets are the objects that you want separated by commas. Make a list, list1, with 'apples', 47, and True.",
+      "def": "print(list1)",
       "obj": "['apple', 47, True]"
     },
     "6": {
-      "text": "Dictionaries are like lists except instead of referring to a place in a list with a number, you can call them whatever you want. Their structure is {key:value, key:value}. Make a dictionary where the keys are 'apples' and 'bananas' and the values are 2 and 3 respectively.",
+      "text": "Dictionaries are like lists except instead of referring to a place in a list with a number, you can call them whatever you want. Their structure is {key:value, key:value}. Make a dictionary, dict1, where the keys are 'apples' and 'bananas' and the values are 2 and 3 respectively.",
+      "def": "print(dict1)",
       "obj": "{'apples':2, 'bananas':3}"
     },
     "7": {
       "text": "A print statement displays whatever you tell it to display. The syntax is print(arg) Print the string 'GitHub'",
+      "def": "",
       "obj": "'GitHub'"
     },
     "8": {
       "text": "Conditional signs compare two values. > is greater than and < is less than. The compare two numbers. You can add an = sign if you want to make it greater/less than or equal to. Make a variable that checks if 3 is greater than or euqal to 4 and print the result",
+      "def": "",
       "obj": "False"
     },
     "9": {
       "text": "Conditional statements are used to do something under a certain condition. They are written as if condition: [insert code] else: [code to otherwise do] Write a conditional that prints 'hi' if 3 < 4 and 'bye' otherwise",
+      "def": "",
       "obj": "hi"
     }
   }
